@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /langtest
+
+
+word:
+  alphabet: a,b,c,d,e,f,g,h,i,j,l,m,n,o,p,q,r,s,u
+  maxLen: 8
+  verb:
+    endWith: d,r,l
+
+paragraph:
+  minSentences: 1
+  maxSentences: 3
+  endSign: '!'
